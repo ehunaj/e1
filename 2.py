@@ -11,11 +11,11 @@ from googletrans import Translator
 import youtube_dl
 
 cl = LineClient()
-#cl = LineClient(authToken="EExY18EhUFvq8nWVYFfa.S4cn6FFFnFv+S2Brv+L5cG.+ha755SoE4scAR8nEEQovSrVvSeibcV/rmwdZeXEewU=")
+#cl = LineClient(authToken="DI SINI TARUH TOKEN")
 cl.log("Auth Token : " + str(cl.authToken))
 
-#sw = LineClient()
-sw = LineClient(authToken="EEek5EIgcc95TctQvix8.9sY37/mZOkHTT1mJDPli2a.uYHtr+7iCyttmHkScU1VndYw56mAyJnWD/QVUX2FLVE=")
+sw = LineClient()
+#sw = LineClient(authToken="DI SINI TARUH TOKEN")
 sw.log("Auth Token : " + str(sw.authToken))
 print("SUCCESS")
 poll = LinePoll(cl)
